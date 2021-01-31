@@ -1,0 +1,117 @@
+.pricing {
+    width: 100%;
+    background: #e5e5e5;
+}
+
+.container-pricing {
+    max-width: 1170px;
+    padding: 0px, 15px;
+    margin: auto;
+}
+
+.title2 {
+    color:rgb(21,21,21);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 100px;
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.line2 {
+    border-bottom: 1px solid #d98943;
+    padding-top: 34px;
+    max-width: 64px;
+    margin: auto;
+}
+
+.subtitle2 {
+    text-align: center;
+    padding-top: 34px;
+    margin-bottom: 67px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #86878B;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 113px;
+    margin-right: 112px;
+    margin-top: 63px;
+    padding-bottom: 80px;
+}
+
+.rowsection2 {
+    width: 340px;
+    text-align: center;
+}
+
+.column {
+    padding-right: 39px;
+    padding-left: 39px;
+}
+
+.column-line1 {
+    background-color: #333333;
+    line-height: 50px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.column-line2 {
+    background-color: #333333;
+    line-height: 100px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 1px;
+}
+
+.column-line-2 {
+    background-color: #333333;
+    line-height: 100px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 2px;
+}
+
+.column-line3 {
+    background-color: #333333;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.column-line-3 {
+    background-color: #D98943;
+    line-height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.column-line4 {
+    background-color: #ffffff;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 1px;
+    color: #86878B;
+    margin-top: 4px;
+}
+
