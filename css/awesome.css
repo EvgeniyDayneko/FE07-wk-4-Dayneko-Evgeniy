@@ -1,11 +1,11 @@
 .awesome {
     width: 100%;
-    background: #e5e5e5;
+    background: #fff;
 }
 
 .container {
     max-width: 1170px;
-    padding: 0px, 15px;
+    padding: 0px 15px;
     margin: auto;
     
 }
@@ -20,10 +20,9 @@
 
 }
 
-.subtitle {
+.awesome-description {
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 67px;
+    margin: 30px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -60,11 +59,11 @@
     margin-left: 25px;
 }
 
-.row {
+.awesome-row {
     display: flex;
     justify-content: center;
-    margin-left: 143px;
-    margin-right: 143px;
+    margin: 0 -15px 80px;
+    flex-wrap: wrap;
 }
 
 .subject {
@@ -79,11 +78,10 @@
 
 .rowsection {
     max-width: 350px;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin: 0 15px;
 }
 
-.text {
+.rowsection-text {
     text-align: center;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
