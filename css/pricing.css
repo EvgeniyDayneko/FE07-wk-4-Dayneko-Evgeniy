@@ -1,34 +1,35 @@
 .pricing {
     width: 100%;
-    background: #e5e5e5;
+    background: #F5F5F5;
 }
 
 .container {
     max-width: 1170px;
-    padding-bottom: 80px;
 }
 
-.pricing-title {
+.pricing__title {
     color:rgb(21,21,21);
     font-size: 36px;
     text-align: center;
-    padding-top: 100px;
     padding-top: 80px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
-.pricing-line {
-    border-bottom: 1px solid #d98943;
-    padding-top: 34px;
-    max-width: 64px;
+.pricing__title::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
     margin: auto;
+    margin-top: 34px;
+
 }
 
-.pricing-subtitle {
+.pricing__subtitle {
     text-align: center;
-    padding-top: 34px;
-    margin-bottom: 67px;
+    margin-top: 34px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -38,8 +39,10 @@
 .pricing-row {
     display: flex;
     justify-content: center;
-    margin: 0 -15px;
+    margin: 62px -15px 0;
     flex-wrap: wrap;
+    padding-bottom: 80px;
+    
 
 }
 
@@ -49,7 +52,7 @@
     margin: 0 15px;
 }
 
-.item-title {
+.pricing-column__title {
     background-color: #333333;
     line-height: 50px;
     color: #ffffff;
@@ -58,7 +61,7 @@
     font-size: 20px;
 }
 
-.item-price {
+.pricing-column__price {
     background-color: #333333;
     line-height: 100px;
     color: #ffffff;
@@ -68,7 +71,7 @@
     margin-top: 1px;
 }
 
-.middle-price {
+.pricing-middle__price {
     background-color: #333333;
     line-height: 100px;
     color: #ffffff;
@@ -78,34 +81,36 @@
     margin-top: 2px;
 }
 
-.item-subtitle {
+.pricing-column__subtitle {
     background-color: #333333;
     line-height: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 1px;
+    margin-top: 2px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.middle-subtitle {
-    background-color: #D98943;
+.pricing-middle__subtitle {
+    background-color: #333333;
     line-height: 35px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 1px;
+    margin-top: 2px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.item-list {
+.pricing-column__list {
     background-color: #ffffff;
     line-height: 40px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 14px;
-    margin-top: 1px;
     color: #86878B;
     margin-top: 4px;
 }
 
+.transformblock {
+    transform: translateY(-15px);
+}
