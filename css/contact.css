@@ -1,0 +1,116 @@
+.contact {
+    width: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.contact__title {
+    color:rgb(21,21,21);
+    font-size: 36px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.contact__title::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin-top: 34px;
+    background-color: #E72424;
+}
+
+.contact__subtitle {
+    text-align: center;
+    margin-top: 34px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #86878B;
+    padding-bottom: 91px;
+}
+
+.container-data {
+    display: flex;
+    margin: 0 -15px;
+
+}
+
+.container-data-filling {
+    margin: 0 15px;
+}
+
+.container-filling__name {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #BDBDBD;
+    
+}
+
+.container-filling__name::after {
+    content: "";
+    display: block;
+    width: 478px;
+    height: 1px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #BDBDBD;
+}
+
+.container-filling__email {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.container-filling__email::after {
+    content: "";
+    display: block;
+    width: 478px;
+    height: 1px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #BDBDBD;
+}
+
+.container-filling__password {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.container-filling__password::after {
+    content: "";
+    display: block;
+    width: 478px;
+    height: 1px;
+    margin-top: 46px;
+    margin-bottom: 69px;
+    background-color: #BDBDBD;
+}
+
+.container-filling__message {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #BDBDBD;
+}
+
+.container-filling__message::after {
+    content: "";
+    display: block;
+    width: 478px;
+    height: 1px;
+    margin-top: 212px;
+    background-color: #BDBDBD;
+}

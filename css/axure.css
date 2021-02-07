@@ -40,7 +40,7 @@
     margin-top: 34px;
 }
 
-.axure__subtitl {
+.axure__subtitle {
     text-align: center;
     margin-top: 34px;
     font-size: 16px;
@@ -51,12 +51,12 @@
 }
 
 .cotainer-button {
+    text-align: center;
     padding-bottom: 38px;
 }
 
 .axure__download {
     color: #FFFFFF;
-    text-align: center;
     border: 1px solid #FFFFFF;
     width: 135px;
     padding: 11px 26px;
@@ -65,6 +65,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
 
 
 
