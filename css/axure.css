@@ -1,0 +1,72 @@
+.axure {
+    width: 100%;
+}
+
+.axure {
+    background: url('/img/fons/background\ 1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.axure-dark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.axure__title {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.axure__title::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.axure__subtitl {
+    text-align: center;
+    margin-top: 34px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 57px;
+}
+
+.cotainer-button {
+    padding-bottom: 38px;
+}
+
+.axure__download {
+    color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    width: 135px;
+    padding: 11px 26px;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+
