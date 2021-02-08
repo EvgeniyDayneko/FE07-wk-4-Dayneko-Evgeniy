@@ -4,6 +4,9 @@
 @import url("/css/axure.css");
 @import url("/css/contact.css");
 @import url('/css/social.css');
+@import url('/css/axit.css');
+@import Url('/css/socialmedia.css');
+
 
 
 
@@ -12,4 +15,10 @@
     padding: 0%;
     list-style: none;
     text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
 }
