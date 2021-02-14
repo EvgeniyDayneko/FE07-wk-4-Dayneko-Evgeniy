@@ -108,6 +108,7 @@
     margin-top: 4px;
 }
 
-.transformblock {
+.transformblock:hover {
     transform: translateY(-15px);
+    transition: all 0.7s ease-in-out;
 }

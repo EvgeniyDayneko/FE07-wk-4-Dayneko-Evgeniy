@@ -47,3 +47,13 @@
     margin-left: 48px;
 }
 
+.link-axit {
+    color: #ffffff;
+}
+
+.link-axit:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    border-bottom: 4px double red;
+    
+}

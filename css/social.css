@@ -13,12 +13,12 @@
     display: flex;
     justify-content: center;
     margin: 0 -15px;
+    padding-top: 30px;
+
 }
 
 .social__icons {
-    display: flex;
     font-size: 23px;
-    padding-top: 30px;
     margin: 0 15px;
     color: #BDBDBD;
 }
@@ -33,3 +33,10 @@
     padding-bottom: 15px;
 }
 
+.link-social {
+    color: #86878B;
+}
+
+.link-social:hover {
+    color: #ffffff;
+}

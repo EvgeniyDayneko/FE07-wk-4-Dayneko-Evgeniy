@@ -66,6 +66,10 @@
     font-weight: 600;
 }
 
+.axure__download:hover {
+    background-color: rgb(184, 184, 184);
+    transition: 1s;
+}
 
 
 
