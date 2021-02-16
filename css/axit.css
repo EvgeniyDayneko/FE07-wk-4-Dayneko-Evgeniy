@@ -49,11 +49,12 @@
 
 .link-axit {
     color: #ffffff;
+    
 }
 
 .link-axit:hover {
     color: #ffffff;
-    text-decoration: underline;
-    border-bottom: 4px double red;
+    border-bottom: 2px solid red;
+    transition: all 1s;
     
 }

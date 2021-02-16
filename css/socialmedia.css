@@ -42,8 +42,10 @@
 
 .link {
     color: #86878B;
+    transition: all 2s;
 }
 
 .link:hover {
-    color: #142777;
+    color: #0a2283;
+    transition: all 2s;
 }

@@ -76,34 +76,39 @@
     color: #BDBDBD;
 }
 
-.name {
+.name-text {
     line-height: 32px;
     margin-bottom: 32px;
     border-width: 0px 0px 1px 0px;
     width: 478px;
     margin-right: 222px;
+    outline: none;
 }
-.email {
+.email-text {
     line-height: 32px;
     margin-bottom: 32px;
     border-width: 0px 0px 1px 0px;
     width: 478px;
     margin-right: 222px;
+    outline: none;
 }
 
-.password {
+.password-text {
     line-height: 46px;
     border-width: 0px 0px 1px 0px;
     margin-bottom: 68.8px;
     width: 478px;
+    margin-right: 222px;
+    outline: none;
     
 }
-.message {
+.message-text {
     line-height: 32px;
     margin-bottom: 32px;
     border-width: 0px 0px 1px 0px;
     width: 478px;
-    height: 209px
+    height: 209px;
+    outline: none;
 }
 
 .container-sendmessage {
@@ -128,3 +133,7 @@
     transition: 1s;
 }
 
+.text {
+    border-width: 0px 0px 1px 0px;
+    outline: none;
+}

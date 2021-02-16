@@ -14,7 +14,6 @@
     justify-content: center;
     margin: 0 -15px;
     padding-top: 30px;
-
 }
 
 .social__icons {
@@ -35,8 +34,10 @@
 
 .link-social {
     color: #86878B;
+    transition: 1s;
 }
 
 .link-social:hover {
     color: #ffffff;
+    transition: 1s;
 }
