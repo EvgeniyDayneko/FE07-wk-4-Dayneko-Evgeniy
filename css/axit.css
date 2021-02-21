@@ -3,12 +3,6 @@
     background: #000000;
 }
 
-.container {
-    max-width: 1170px;
-    padding: 0px 15px;
-    margin: auto;
-}
-
 .header-wrapper {
     display: flex;
     justify-content: space-between;
