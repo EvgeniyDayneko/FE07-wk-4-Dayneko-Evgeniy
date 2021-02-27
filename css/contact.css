@@ -41,7 +41,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -15px;
+    margin: 0 -15px 50px;
 }
 
 .container-data-filling {
@@ -86,6 +86,7 @@
     width: 100%;
     outline: none;
 }
+
 .email-text {
     line-height: 32px;
     margin-bottom: 32px;
@@ -99,18 +100,16 @@
     line-height: 46px;
     border-width: 0px 0px 1px 0px;
     border-color: #BDBDBD;
-    margin-bottom: 68.8px;
     width: 100%;
     outline: none;
 }
 
 .message-text {
     line-height: 32px;
-    margin-bottom: 32px;
     border-width: 0px 0px 1px 0px;
     border-color: #BDBDBD;
     width: 100%;
-    height: 209px;
+    height: 212px;
     outline: none;
 }
 

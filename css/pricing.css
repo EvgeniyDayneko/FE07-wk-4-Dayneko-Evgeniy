@@ -115,4 +115,10 @@
 .transformblock:hover {
     transform: translateY(-15px);
     transition: all 0.7s ease;
+    background: rgb(184, 184, 184);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.pricing-column__list:hover {
+    color: #E72424;
 }

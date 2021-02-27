@@ -62,12 +62,12 @@
     border-left: 17px solid transparent; 
     border-right: 17px solid transparent;
     border-bottom: 12px solid  #e2e2e2;
-    left: 15%;
+    left: 10%;
     transform:rotate(180deg);
 }
 
 .customers__text {
-    padding: 9px 22px 6px 23px;
+    padding: 18px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -78,20 +78,21 @@
 .customers-section-info {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image {
-    border-radius: 35px;
-    margin-top: 22px;
-    margin-left: 50px;
+    border-radius: 50px;
 }
 
-.customtrs-information {
-    margin-left: 45px;
-    margin-top: 30px;
-    margin-inline-end:0px;
-}
-   
 .customers-info__specialty {
     padding-top: 12px;
     text-align: end;
