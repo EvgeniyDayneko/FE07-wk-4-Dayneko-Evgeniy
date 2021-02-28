@@ -9,6 +9,7 @@
     justify-content: space-between;
     flex-direction: column;
 }
+
 .tabButtom-text {
     color: #ffffff;
     background-color: #333333;
@@ -32,6 +33,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .topic-text {
     margin-top: 126px;
 }
@@ -54,7 +56,7 @@
 
 .indent {
     margin-top: 20px; /* Отступ первой строки в пикселах */
-   }
+}
 
 .topic-img {
     margin-top: 100px;

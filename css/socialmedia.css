@@ -26,18 +26,20 @@
     padding-bottom: 17px;
 }
 
+.socialmedia-img {
+    width: 684px;
+}
+
 .socialmedia-img-row {
     display: flex;
+    justify-content: space-between;
     color: #86878B;
     margin-top: 34px;
     margin-bottom: 34px;
 }
 
 .socialmedia__icons {
-    display: flex;
-    max-width: 684px;
     font-size: 42px;
-    margin-left: 68px;
 }
 
 .link {
