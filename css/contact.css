@@ -34,18 +34,17 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #86878B;
-    padding-bottom: 91px;
 }
 
 .container-data {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -15px 50px;
+    margin: 0 -15px;
 }
 
 .container-data-filling {
-    margin: 0 15px;
+    margin: 90px 15px 0;
     max-width: 478px;
     width: 100%;
 }
@@ -115,7 +114,7 @@
 
 .container-sendmessage {
     text-align: center;
-    padding-bottom: 44px;
+    padding: 50px 0 44px;
 }
 
 .sendmessage-text {

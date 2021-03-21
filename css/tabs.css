@@ -1,41 +1,36 @@
-.containertabs {
+.containertabs-row {
     display: flex;
     justify-content: space-between;
 }
 
-.tabButtom {
+.contentTabs-topic-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 125px;
+}
+
+.tabButtom {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-top: 125px;
 }
 
 .tabButtom-text {
     color: #ffffff;
     background-color: #333333;
     padding: 45px 35px;
-    margin-bottom: 10px ;
+    margin-bottom: 10px;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     transition: all 1s;
-}
-
-.contentTabs {
-    padding-left: 118px;
+    width: 112px;
 }
 
 .tabButtom-text:hover {
      background-color: #EC7979;
-}
-
-.contentTabs-topic {
-    display: flex;
-    justify-content: space-between;
-}
-
-.topic-text {
-    margin-top: 126px;
 }
 
 .topic-title_text {
@@ -43,6 +38,7 @@
     font-weight: 700px;
     font-size: 20px;
     font-family: 'Montserrat';
+    margin-left: 15px;
 }
 
 .topic-subtitle-text {
@@ -52,18 +48,19 @@
     font-family: 'Montserrat';
     max-width: 572px;
     margin-top: 58px;
-}
-
-.indent {
-    margin-top: 20px; /* Отступ первой строки в пикселах */
+    margin-left: 15px;
 }
 
 .topic-img {
-    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.indent {
+    margin-top: 20px;
 }
 
 .contentTabs-download {
-    margin-top: 93px;
+    margin-top: 70px;
 }
 
 .tabs__download {
@@ -71,13 +68,13 @@
     background-color: #EC7979;
     width: 135px;
     padding: 11px 26px;
-    margin: auto;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     transition: 1s;
+    margin-left: 15px;
 }
-
+    
 .tabs__download:hover {
     background-color: red;
 }

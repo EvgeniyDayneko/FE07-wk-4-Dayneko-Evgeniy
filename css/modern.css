@@ -16,11 +16,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.modern-dark__text {
     padding-top: 110px;
 }
+
 .axit__text {
     color:#ffffff;
     font-size: 60px;
@@ -83,7 +81,6 @@
 }
 
 .container-right {
-    margin-top: 110px;
     background-color: #ffffff;
     max-width: 370px;
     height: 370px;

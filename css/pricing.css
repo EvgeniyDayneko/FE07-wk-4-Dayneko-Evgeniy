@@ -38,7 +38,7 @@
 .pricing-row {
     display: flex;
     justify-content: space-between;
-    margin: 62px -15px 0;
+    margin: 0 -15px;
     flex-wrap: wrap;
     padding-bottom: 80px;
 }
@@ -46,7 +46,7 @@
 .pricing-row-item {
     width: 340px;
     text-align: center;
-    margin: 0 15px;
+    margin: 62px 15px 0;
 }
 
 .pricing-column__title {
